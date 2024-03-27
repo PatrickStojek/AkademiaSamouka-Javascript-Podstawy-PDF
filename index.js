@@ -26,3 +26,15 @@ let myVar =  null
 let myObj = {}
 
 console.log(typeof myVar === 'object') // output: true
+
+
+// toUpperCase() function and toFixed()
+const name = Adam
+const nameUpperCase = Adam.toUpperCase()
+console.log(nameUpperCase) // output: ADAM
+
+const price = 5.435
+ 
+const priceFixed = price.toFixed(2)
+
+console.log(priceFixed)
