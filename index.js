@@ -20,3 +20,9 @@ const fn  = function() {
 const fnType = typeof fn
 console.log(fnType); /// output: function
 
+/// Javascript enrooted error
+
+let myVar =  null
+let myObj = {}
+
+console.log(typeof myVar === 'object') // output: true
