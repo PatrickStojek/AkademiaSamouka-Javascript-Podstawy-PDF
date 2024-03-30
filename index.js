@@ -29,8 +29,8 @@ console.log(typeof myVar === 'object') // output: true
 
 
 // toUpperCase() function and toFixed()
-const name = Adam
-const nameUpperCase = Adam.toUpperCase()
+let Name = 'Adam'
+const nameUpperCase = Name.toUpperCase()
 console.log(nameUpperCase) // output: ADAM
 
 const price = 5.435
@@ -47,3 +47,14 @@ const numFloat = parseFloat(txt)
 
 console.log(numInt) /// output: 246.75
 console.log(numFloat) /// output: number
+
+// alogrith for choosing highest number from 3 inputed
+
+const number1 = Math.floor(Math.random() * 100)
+const number2 = Math.floor(Math.random() * 100)
+const number3 = Math.floor(Math.random() * 100)
+
+function CheckWitchBiggest(number1,number2, number3) {
+    
+}
+
