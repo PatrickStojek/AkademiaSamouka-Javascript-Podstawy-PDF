@@ -54,7 +54,13 @@ const number1 = Math.floor(Math.random() * 100)
 const number2 = Math.floor(Math.random() * 100)
 const number3 = Math.floor(Math.random() * 100)
 
-function CheckWitchBiggest(number1,number2, number3) {
-    
+function CheckWhichBiggest(number1,number2, number3) {
+    if(number1 > number2 && number1 > number3) {
+        console.log(`${number1} is the biggest number`)
+    }  else if(number2 > number3){
+        console.log(`{number2} is the biggest number`)
+    } else {
+        console.log(`{number3} is the biggest number `)
+    }
 }
 
