@@ -64,3 +64,16 @@ function CheckWhichBiggest(number1,number2, number3) {
 }
 
 console.log('a' > 'A') // output: true  a=> 97, A => 65
+
+
+// example of age verification
+
+const userAge = prompt('Ile masz lat?', 0);
+const userAgeInt = parseInt(userAge);
+
+const isAdult = userAgeInt - 18;
+
+if(!isAdult) {
+    const leftAge = 18 - userAge
+    alert(`You have ${leftAge} years left to reaching legal age`)
+} else alert("Congratulations you are an adult!")
