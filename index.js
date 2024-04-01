@@ -40,10 +40,11 @@ const priceFixed = price.toFixed(2)
 console.log(priceFixed)
 
 /// Usage of parseInt and ParseFloat
-
 const txt = '246.75'
 const numInt = parseInt(txt)
 const numFloat = parseFloat(txt)
 
 console.log(numInt) /// output: 246.75
 console.log(numFloat) /// output: number
+
+console.log('a' > 'A') // output: true a => 97, A => 65
