@@ -77,3 +77,9 @@ if(!isAdult) {
     const leftAge = 18 - userAge
     alert(`You have ${leftAge} years left to reaching legal age`)
 } else alert("Congratulations you are an adult!")
+
+isNumberEven(number1, number2) {
+   const isNumberEven = !(number1 % 2) && !(number2 % 2) ? 'yes' : 'no';
+    console.log(isNumberEven)
+}
+
