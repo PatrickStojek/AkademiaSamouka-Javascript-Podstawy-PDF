@@ -63,3 +63,4 @@ function CheckWhichBiggest(number1,number2, number3) {
     }
 }
 
+console.log('a' > 'A') // output: true  a=> 97, A => 65
