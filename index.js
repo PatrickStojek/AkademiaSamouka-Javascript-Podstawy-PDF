@@ -112,6 +112,9 @@ switch(monthNumber) {
         monthName = "June";
         break;
     //// and so on
+    default:
+        alert("invalid month number")
+        break
 }
 
 alert(monthName)
