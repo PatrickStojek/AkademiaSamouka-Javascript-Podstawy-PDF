@@ -86,3 +86,32 @@ isNumberEven(number1, number2) {
 /* shorter version of checking wheter a number is even */
 const isEven = a % 2 === 0 ? 'true' : 'false';
 const isEvenShorterNotation = a % 2 === 0;
+
+/* Use Case of switch in javascript */
+
+const monthNumber = parseInt(prompt('entter the month number', 0));
+let monthName;
+
+switch(monthNumber) {
+    case 1:
+        monthName = "January";
+        break;
+    case 2:
+        monthName = "February";
+        break;
+    case 3:
+        monthName = "March";
+        break;
+    case 4:
+        monthName = "April";
+        break;
+    case 5:
+        monthName = "May";
+        break;
+    case 6:
+        monthName = "June";
+        break;
+    //// and so on
+}
+
+alert(monthName)
