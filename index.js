@@ -83,3 +83,6 @@ isNumberEven(number1, number2) {
     console.log(isNumberEven)
 }
 
+/* shorter version of checking wheter a number is even */
+const isEven = a % 2 === 0 ? 'true' : 'false';
+const isEvenShorterNotation = a % 2 === 0;
