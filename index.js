@@ -71,9 +71,7 @@ console.log('a' > 'A') // output: true  a=> 97, A => 65
 const userAge = prompt('Ile masz lat?', 0);
 const userAgeInt = parseInt(userAge);
 
-const isAdult = userAgeInt => 18;
-
-if(!isAdult) {
+if(userAgeInt < 18) {
     const leftAge = 18 - userAge
     alert(`You have ${leftAge} years left to reaching legal age`)
 } else alert("Congratulations you are an adult!") 
@@ -86,36 +84,5 @@ function isNumberEven(number1, number2) {
 /* shorter version of checking wheter a number is even */
 const isEven = a % 2 === 0 ? 'true' : 'false';
 const isEvenShorterNotation = a % 2 === 0;
-
-/* Use Case of switch in javascript */
-const monthNumber = parseInt(prompt('enter the month number', 0));
-let monthName;
-
-switch(monthNumber) {
-    case 1:
-        monthName = "January";
-        break;
-    case 2:
-        monthName = "February";
-        break;
-    case 3:
-        monthName = "March";
-        break;
-    case 4:
-        monthName = "April";
-        break;
-    case 5:
-        monthName = "May";
-        break;
-    case 6:
-        monthName = "June";
-        break;
-    //// and so on
-    default:
-        alert("invalid month number")
-        break
-}
-alert(monthName)
-
 
 
